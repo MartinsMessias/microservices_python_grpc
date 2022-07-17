@@ -18,8 +18,8 @@ Start the services in the background:
 Open Homepage at <http://localhost:5000>.
 
 
-Stop the services in the background:
+To stop the services in the background:
 
     docker-compose down
  
- # .
+ #
