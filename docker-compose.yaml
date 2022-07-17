@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+
+    catalog:
+        build:
+            context: .
+            dockerfile: catalog/Dockerfile
+        restart: always
+        environment:
+            RECOMMENDATIONS_HOST: recommendations
+        image: catalog
+        networks:
+            - microservices
+        ports:
+            - "5000:5000"
+
+    recommendations:
+        build:
+            context: .
+            dockerfile: recommendations/Dockerfile
+        image: recommendations
+        restart: always
+        networks:
+            - microservices
+
+networks:
+    microservices:
