@@ -1,0 +1,14 @@
+<!-- homepage.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Movies For You</title>
+</head>
+<body>
+    <h1>Si Fi movies you may like</h1>
+    <ul>
+    {% for movie in recommendations %}
+        <li>{{ movie.title }}</li>
+    {% endfor %}
+    </ul>
+</body>
