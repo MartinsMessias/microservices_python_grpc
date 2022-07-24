@@ -1,5 +1,10 @@
 Project to study microservices and gRPC
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=MartinsMessias_microservices_python_grpc&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=MartinsMessias_microservices_python_grpc)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=MartinsMessias_microservices_python_grpc&metric=bugs)](https://sonarcloud.io/summary/new_code?id=MartinsMessias_microservices_python_grpc)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=MartinsMessias_microservices_python_grpc&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=MartinsMessias_microservices_python_grpc)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=MartinsMessias_microservices_python_grpc&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=MartinsMessias_microservices_python_grpc)
+
 ## Getting started
 
 Microservices are a way to organize complex software systems. Instead of putting all your code into one app, you break your app into microservices that are deployed independently and communicate with each other. 
