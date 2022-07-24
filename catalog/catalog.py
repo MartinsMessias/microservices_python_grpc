@@ -7,6 +7,7 @@ from recommendations_pb2 import MovieCategory, RecommendationRequest
 from recommendations_pb2_grpc import RecommendationsStub
 
 app = Flask(__name__)
+app.config['WTF_CSRF_ENABLED'] = False
 
 recommendations_host = os.getenv("RECOMMENDATIONS_HOST", "localhost")
 recommendations_channel = grpc.insecure_channel(
